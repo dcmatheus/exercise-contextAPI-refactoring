@@ -17,7 +17,7 @@ function Cars() {
             alt="red car"
           />
           <button
-            onClick={() => moveCar('red', !redCar)}
+            onClick={() => moveCar('redCar', !redCar)}
             type="button"
           >
             Move
@@ -30,7 +30,7 @@ function Cars() {
             alt="blue car"
           />
           <button
-            onClick={() => moveCar('blue', !blueCar)}
+            onClick={() => moveCar('blueCar', !blueCar)}
             type="button"
           >
             Move
@@ -43,7 +43,7 @@ function Cars() {
             alt="yellow car"
           />
           <button
-            onClick={() => moveCar('yellow', !yellowCar)}
+            onClick={() => moveCar('yellowCar', !yellowCar)}
             type="button"
           >
             Move
